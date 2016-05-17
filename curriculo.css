@@ -1,0 +1,219 @@
+.name {
+	background-color: #851944; 
+	color: #FFF;
+	text-align: center;
+	padding: 16px; 
+	top: 0;
+	border-bottom: 10px  outset #221010; 
+	box-sizing: border-box;
+	text-transform: uppercase;
+	font-size: 25px;
+	box-shadow:5px 5px 3px #BEBEBE;
+	position: fixed; 
+	width: 75%; 
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	margin-top: auto;
+
+
+	
+}
+.name:hover{
+	color: #F58309;
+}
+
+
+#foto {
+	position: absolute; 
+	top: 18px; 
+	margin-right: auto;
+	margin-left: -40px;
+	width: 150px;
+	height: 150px;
+	border: 10px  solid #221010 ;
+    box-shadow:5px 5px 3px #BEBEBE;
+    -webkit-transform:rotate(-10deg);
+    -webkit-border-radius: 10% 50% / 50% 10%;
+	-moz-border-radius: 10% 50% / 50% 10%;
+	border-radius: 10% 50% / 50% 10%;
+    position: fixed; 
+}
+
+
+ .contato, #email {
+ 	text-align: center;
+ 	text-transform: lowercase;
+ 	font-size: 16px;
+ 	text-indent: 35px;
+ 	color: #851944;
+ 	margin:auto;
+
+ 	
+}
+
+ #email {
+ 	text-decoration: underline;
+
+
+ }
+
+body {
+	width: 940px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px;
+	background: #E8E8E8;
+	padding-bottom: 90px;
+	font-size: 16px;
+	
+}
+
+
+
+h1 { 
+	font-size: 20px;
+	text-indent: 30px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}
+
+ a:hover {
+	/*quando passar o maouse em cima dos links eles mudam de cor.*/
+	color: #F98006;
+
+}
+
+a {
+	text-decoration: none;
+
+}
+
+
+
+.titulo {
+	text-align: left;
+	/*-webkit-transform:rotate(270deg); */
+	background: -webkit-linear-gradient(top, #F55B98, #851944);
+	color: #FFF;
+	border-radius: 20px;
+	box-shadow:5px 5px 3px #FBB3D0;
+	/*width: 190px;
+	float: left;*/
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-size: 22px;
+
+	
+}
+
+.grad  p {
+
+	text-align: left;
+	text-indent: 50px;
+	
+
+}
+
+
+.exp {
+	text-align: center;
+	text-indent: 50px;
+}
+.exp  p {
+	font-size: 15px;
+	text-align: left;
+	text-indent: 50px;
+}
+.exp h2 {
+	text-align: left;
+	text-indent: 50px;
+}
+
+.exp ul li {
+	list-style: none;
+	text-align: left;
+	text-indent: 50px;
+	font-size: 13px;
+
+}
+
+.container {
+	font-family: 'Lato', sans-serif;
+
+}
+
+.biografia {
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+
+}
+
+footer {
+	background-color: #0E0202;
+	color: #F7F1F1; 
+	bottom: 0; 
+	left: 0;
+	width: 100%; 
+	box-sizing: border-box;
+	position: fixed; 
+	font-family: 'Lato', sans-serif;
+	
+}
+
+ footer nav  {
+	
+	float: right;
+	
+	
+}
+
+footer nav ul li {
+	margin-right: 20px;
+	list-style: none;
+	display: inline-block; 
+	color: #F7F1F1;
+
+}
+
+footer nav a {
+	color: #F7F1F1;
+
+}
+
+footer div {
+	float: left;
+	margin-top: 10px;
+	color: #F7F1F1;
+
+}
+main {
+	padding-top: 190px;
+  text-align: left;
+	
+}
+
+
+
+.apresentacao {
+	text-align: center;
+}
+.books {
+	text-align: center;
+	margin-top: 30px;
+}
+ .icones-sociais a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -99999px;
+    list-style: none;
+}
+
+.linkedin {
+    background-image: url(linkedin.png);
+}
